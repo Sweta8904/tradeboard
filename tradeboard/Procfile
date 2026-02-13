@@ -1,1 +1,1 @@
-web: gunicorn tradeboard.wsgi
+web: gunicorn tradeboard.wsgi.application
