@@ -16,10 +16,10 @@ interface Summary {
   total_value: number;
 }
 
-interface Alert {
-  type: string;
-  message: string;
-}
+// interface Alert {
+//   type: string;
+//   message: string;
+// }
 
 function Dashboard() {
   const [summary, setSummary] = useState<Summary | null>(null);
